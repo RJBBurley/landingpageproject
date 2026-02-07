@@ -21,12 +21,20 @@ body {
 
 }
 
+.header_logo{
+    max-width:100px;
+    max-height:auto;
+    
+    margin-left:90px;
+}
+
 .links {
     gap:20px;
     list-style-type: none;
 
     display:flex;
     align-items:center;
+    margin-right:90px;
 }
 
 a {
