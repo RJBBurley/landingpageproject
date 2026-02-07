@@ -1,0 +1,36 @@
+body {
+    margin:0px;
+    padding:0px;
+    height:100%;
+}
+
+.landing_page{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+}
+
+.header{
+   display:flex;    
+   justify-content:space-between;
+   align-items:center;
+
+   background-color:#1F2937;
+   color:#F9FAF8;
+
+}
+
+.links {
+    gap:20px;
+    list-style-type: none;
+
+    display:flex;
+    align-items:center;
+}
+
+a {
+    text-decoration:none;
+    color:#F9FAF8;
+    font-size: 18px;
+}
