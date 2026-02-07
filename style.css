@@ -11,6 +11,7 @@ body {
 
 }
 
+/*Header Items*/
 .header{
    display:flex;    
    justify-content:space-between;
@@ -42,3 +43,17 @@ a {
     color:#F9FAF8;
     font-size: 18px;
 }
+
+/*Hero Items*/
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.hero_image{
+    max-height:700px;
+    max-width:auto;
+}
+
