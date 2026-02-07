@@ -92,7 +92,7 @@ button{
 
 .card_display{
     display:flex;
-    gap:20px;
+    gap:50px;
 }
 
 .card{
@@ -111,4 +111,43 @@ button{
     border:3px solid #3882F6;
 }
 
+/* Quote Section */
 
+.quote{
+    background-color:#E5E7EB;
+    padding:100px;
+}
+
+.quote_text{
+    font-size:36px;
+    color:#1F2937;
+    font-weight:300;
+}
+
+.quote_attribution{
+    text-align:right;
+    font-size:24px;
+    font-weight:900;
+}
+
+/* Call to Action Section */
+
+.call_to_action{
+    background-color:#3882F6;
+    color:#F9FAF8;
+    border-radius:8px;
+
+    margin: 80px 60px;
+    padding: 50px 40px;
+}
+
+.call_title{
+    font-size:30px;
+    font-weight:900;
+}
+
+.inverted_blue {
+    background-color:#3882F6;
+    color:#F9FAF8;
+    border:2px solid #F9FAF8;
+}
