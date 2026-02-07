@@ -53,6 +53,7 @@ a, .hero_secondary_text {
     justify-content:space-around;
     
     background-color:#1F2937;
+    padding-top:50px;
 }
 
 .hero_image {
@@ -69,5 +70,11 @@ a, .hero_secondary_text {
 .white_on_blue {
     background-color:#3882F6;
     color:#F9FAF8;
+}
+
+button{
+    padding: 5px 15px 5px 15px;
+    border:none;
+    border-radius:8px;
 }
 
